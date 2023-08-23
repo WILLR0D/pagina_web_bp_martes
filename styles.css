@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+}
+
+.perfil,
+.equipo {
+  text-align: center;
+}
+
+.perfil img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.equipo {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #f4f4f4;
+}
