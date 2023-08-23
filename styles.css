@@ -1,41 +1,141 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
 }
 
 header {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+
+.logo img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+/* h1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
 main {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
 }
 
 .perfil,
 .equipo {
-  text-align: center;
+    background-color: #fff;
+    padding: 6.0rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
-.perfil img {
-  max-width: 100%;
-  border-radius: 50%;
+.perfil {
+    margin-right: 1rem;
+    flex: 1;
 }
 
 .equipo {
-  border: 1px solid #ddd;
-  padding: 1rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 2;
+}
+
+.perfil img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.equipo h3 {
+    color: #444;
+    margin-top: 1rem;
+}
+
+.equipo p {
+    color: #666;
 }
 
 footer {
-  text-align: center;
-  padding: 1rem 0;
-  background-color: #f4f4f4;
+    text-align: center;
+    padding: 0.50rem 0;
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 5px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content p {
+    margin: 0;
+    color: #ccc;
+}
+
+.footer-content img {
+    width: 30px;
+}
+
+.equipo-info img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.equipo-info h3 {
+    margin-left: 10px;
+}
+
+.logos-juegos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos-juegos img {
+    margin: 10px;
+}
+
+.jugadores-cod {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.jugador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
 }
