@@ -5,6 +5,6 @@ Puedes visitar la página en [https://willr0d.netlify.app](https://willr0d.netli
 ## Tecnologías Utilizadas
 
 - HTML
-- CSS (incluyendo Media Queries para diseño responsivo)
+- CSS
 - [Netlify](https://www.netlify.com/) para la implementación y el hosting.
 
