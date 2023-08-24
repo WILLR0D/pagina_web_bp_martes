@@ -4,7 +4,7 @@ body {
     padding: 0;
     background-color: #f5f5f5;
     position: relative;
-    min-height: 100vh; /* Establece el alto mínimo del cuerpo al 100% del alto de la ventana */
+    min-height: 100vh;
 }
 
 header {
@@ -35,7 +35,7 @@ header {
 main {
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* Alinea el contenido en la parte superior */
+    align-items: flex-start;
     padding: 2rem;
     flex-grow: 1;
 }
@@ -47,19 +47,20 @@ main {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 100%; /* Ocupa todo el ancho en pantallas pequeñas */
+    width: 100%;
 }
 
 .perfil {
-    margin-bottom: 2rem; /* Agrega un margen inferior entre secciones */
+    margin-bottom: 2rem;
 }
 
 .equipo {
-    margin-left: 2rem; /* Añade margen izquierdo entre secciones */
+    margin-left: 2rem;
 }
 
-.perfil img, .jugador img {
-    max-width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+.perfil img,
+.jugador img {
+    max-width: 100%;
     height: auto;
     border-radius: 50%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -123,7 +124,7 @@ footer {
 
 .jugadores-cod {
     display: flex;
-    flex-wrap: wrap; /* Ajusta los jugadores en varias filas si es necesario */
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
@@ -134,18 +135,19 @@ footer {
     flex-direction: column;
     align-items: center;
     margin: 10px;
-    flex-basis: calc(33.33% - 20px); /* Divide los jugadores en 3 columnas */
+    flex-basis: calc(33.33% - 20px);
 }
 
-/* Media queries para diseño responsivo */
+
 @media screen and (max-width: 768px) {
+
     .perfil,
     .equipo {
         padding: 1rem;
-        margin: 0; /* Elimina márgenes entre secciones */
+        margin: 0;
     }
 
     .jugador {
-        flex-basis: calc(50% - 20px); /* Divide los jugadores en 2 columnas */
+        flex-basis: calc(50% - 20px);
     }
 }
